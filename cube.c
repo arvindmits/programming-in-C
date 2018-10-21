@@ -1,9 +1,11 @@
+## to find cube of a number
 #include<stdio.h>
-int cu,va;
+#include<conio.h>
+int cube,value;
 void main()
 {
-	printf(" ent val");
-	scanf("%d", &va);
-	cu = va*va*va;
-	printf("%d", cu);
+	printf(" enter value");
+	scanf("%d", &value);
+	cube = value*value*value;
+	printf("%d", cube);
 }
