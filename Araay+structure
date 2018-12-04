@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+struct student
+{
+char name[10];
+int roll_no;
+int marks;
+}s[5];
+void main()
+{
+int i;
+clrscr();
+for(i=0;i<5;i++)
+{
+printf("Enter the Name,Roll No. and marks of student");
+scanf("%s %d %d",&s[i].name,&s[i].roll_no,&s[i].marks);
+}
+for(i=0;i<5;i++)
+{
+printf("\n%s %d %d",s[i].name,s[i].roll_no,s[i].marks);
+}
+getch();
+}
